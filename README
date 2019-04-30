@@ -2,6 +2,25 @@ Please access localhost:3000 in order to view both applications.
 
 Do note that due to file size issue, I have only uploaded the src files here.
 
-src -> Scenario 1 -> Application works but Redux not implemented and no unit testing done
-src_2 -> Scenario 2 -> Implemented features for Create/View/Delete Activity but not for Edit Activity. Redux store, reducers implemented
-                      but no unit testing done
+src -> Scenario 1 -> 
+
+$ Takes in user input
+$ Outputs temperature
+$ Outputs weather and description  (in 3 hours interval)
+$ Outputs correct weather/description according to API and json
+$ Outputs nothing if invalid input, or date doesn't fall within API implementation
+
+! No redux implemented
+! No unit testing
+
+src_2 -> Scenario 2 -> 
+
+$ Takes in user input 
+$ Creates new activity when 'Create Activity' button is clicked
+$ View activities on right side of page
+$ Deletes specific activity when 'Delete' button is clicked
+  - Id attribute of Activity to allow accurate deletion
+$ Redux implemented to keep track of state - state refers to the activities stored in the activities array
+
+! User is unable to edit activity details that has been created before
+! No unit testing
