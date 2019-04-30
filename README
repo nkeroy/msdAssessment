@@ -7,8 +7,8 @@ src -> Scenario 1 ->
 $ Takes in user input
 $ Outputs temperature
 $ Outputs weather and description  (in 3 hours interval)
-$ Outputs correct weather/description according to API and json
-$ Outputs nothing if invalid input, or date doesn't fall within API implementation
+$ Outputs correct weather/description according to date entered
+$ Outputs nothing if invalid input, or date doesn't fall within 5 days range according to API implementation
 
 ! No redux implemented
 ! No unit testing
