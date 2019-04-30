@@ -1,3 +1,7 @@
 Please access localhost:3000 in order to view both applications.
 
 Do note that due to file size issue, I have only uploaded the src files here.
+
+src -> Scenario 1 -> Application works but Redux not implemented and no unit testing done
+src_2 -> Scenario 2 -> Implemented features for Create/View/Delete Activity but not for Edit Activity. Redux store, reducers implemented
+                      but no unit testing done
