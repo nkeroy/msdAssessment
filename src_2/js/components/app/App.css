@@ -1,0 +1,18 @@
+.App {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  
+}
+
+.left{
+  left: 0;
+  background-color: aliceblue;
+  text-align: centre;
+}
+
+.right{
+  right: 0;
+  background-color: whitesmoke;
+  text-align:centre;
+}
